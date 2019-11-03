@@ -84,6 +84,7 @@ DATABASES = {
     }
 }
 
+#https://django-celery-results.readthedocs.io/en/latest/
 CELERY_RESULT_BACKEND = 'django-db'
 
 CELERY_IMPORTS = (

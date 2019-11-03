@@ -16,3 +16,5 @@ def mul(x, y):
 @app.task
 def xsum(numbers):
     return sum(numbers)
+
+#to run worker:  celery -A tasks worker --loglevel=info
